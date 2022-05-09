@@ -1,0 +1,133 @@
+.AllPagesBox{
+    background-image: url('./../public/images/Background.png');
+    background-size: 100vh;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+.homeOuterBox{
+    height: 88vh;
+}
+
+.homeInnerBox{
+    height: 80%;
+    display: flex;
+}
+.homeTitleInnerBox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.indexPageTitleB{
+    font-size: 110px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: #ffc107;
+    text-shadow: 1px 1px 2px black;
+}
+.indexPageTitleNor{
+    color: purple;
+    font-size: 80px;
+}
+
+.titleDescriptionBox{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.titleDescription{
+    color: purple;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #ffc107;
+    letter-spacing: 2px;
+    width: 70%;
+}
+
+.HomeLoginBox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.LoginOuterBox{
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffc107;
+    border-radius: 10px;
+}
+
+.LoginTitle{
+    font-weight: bold;
+    color: purple;
+}
+
+.inputEmail , .inputPassword , .inputPhoneNumber , .inputName , .inputPasswordC{
+    background-color: purple;
+    outline: none;
+    border: none;
+}
+
+.inputEmail::placeholder , .inputPassword::placeholder , .inputPhoneNumber::placeholder , .inputName::placeholder , .inputPasswordC::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+.inputEmail:focus , .inputPassword:focus , .inputPhoneNumber:focus , .inputName:focus , .inputPasswordC:focus{
+    background-color: purple;
+    box-shadow: none;
+    box-shadow: 0px 0px 5px 0px black
+}
+.btnLogin{
+    background-color: purple;
+    color: white;
+    width: 100px;
+}
+.btnLogin:hover{
+    color: white;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.btnBoxLogin{
+    float: right;
+}
+
+.createNewAccountLogin{
+    color: purple;
+}
+.createNewAccountLogin:hover{
+    color: black;
+}
+
+.SignUpOuterBox{
+    height: 88vh;
+}
+
+.formBoxSignup{
+    height: 70vh;
+    background-color: #ffc107;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px ;
+    padding: 20px;
+}
+.SubmitBtn{
+    background-color: purple;
+    width: 100px;
+    color: white;
+    float: right;
+}
+.SubmitBtn:hover{
+    color: white;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.setProfilePageBox{
+    height: 88vh;
+}
+.setProfilePageInnerBox{
+    height: 60%;
+}
+

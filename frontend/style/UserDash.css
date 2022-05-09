@@ -1,0 +1,20 @@
+.postInnerBox{
+
+}
+.PostForm{
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+}
+
+.newsFeedAreaInnerBox{
+    height: 80vh;
+    overflow: scroll;
+}
+
+.newsFeedAreaInnerBox::-webkit-scrollbar-thumb{
+    background-color: #ffc107;
+}
+
+.CommentTextArea::placeholder{
+    color: white;
+}
