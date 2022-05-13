@@ -35,7 +35,7 @@ const Navbar = () => {
                     
                 </a></NextLink>
                ): (
-                <NextLink href="/UserDash"><a className="nav-link"><img src='images/Logo.png' className='Logo' style={{width: "60px"}}></img></a></NextLink>
+                <NextLink href="/UserDash"><a className="nav-link"><img src='images/Logo.png' className='Logo' style={{width: "40px"}}></img></a></NextLink>
                )}
                 
                 {
